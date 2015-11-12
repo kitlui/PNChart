@@ -99,7 +99,7 @@
 
 - (void)strokeChart{
     [self loadDefault];
-    [self recompute];
+    //[self recompute];
     
     PNPieChartDataItem *currentItem;
     for (int i = 0; i < _items.count; i++) {
